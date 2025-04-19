@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #343625;
+    color: #faebcc;
+    margin: 0;
+}
+
+.header-menu-humanas {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #faebcc;
+    text-align: center;
+    margin-top: 0;
+}
+.header-container-humanas {
+    position: relative;
+    min-height: 400px;
+}
+
+.header-background-humanas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.header-image-humanas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 55%;
+}
+
+.header-humanas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Smooch', cursive;
+    font-size: 100px;
+}
+
+.botao-voltar-areas a {
+    display: inline-block;
+    text-align: center;
+    background-color: #faebcc;
+    color: #343625;
+    border: none;
+    border-radius: 15px;
+    font-size: 29px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Smooch', cursive;
+    text-decoration: none;
+}
+
+.botao-voltar-areas a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botao-voltar-areas {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
