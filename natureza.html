@@ -24,9 +24,94 @@
             <Menu>Natureza</Menu>
         </div>
     </div>
+    
+  <div class="titulo-secao">
+    <h2>1° Trimestre</h2>
+</div>
+
+<div class="botoes-1trimestres">
+    <div class="bloco-atividade">
+      <button class="icone-modal" onclick="abrirModal('modalMapaMental')">☰</button>
+      <a href="https://www.canva.com/design/DAGkutKtMcg/AFs2D65jqrhARochieHp3Q/edit?utm_content=DAGkutKtMcg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+         target="_blank" 
+         class="botao-mapamental">
+        Mapa Mental
+      </a>
+    </div>
+  
+    <div class="bloco-atividade">
+      <button class="icone-modal" onclick="abrirModal('modalPoluicao')">☰</button>
+      <a href="https://www.canva.com/design/DAGe-oGywDc/E_vuRz2p-e2k-mcRhQug8A/edit?utm_content=DAGe-oGywDc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+         target="_blank" 
+         class="Poluição">
+        Poluição da Água
+      </a>
+    </div>
+  
+    <div class="bloco-atividade">
+      <button class="icone-modal" onclick="abrirModal('modalEstequiometria')">☰</button>
+      <a href="https://docs.google.com/document/d/14tnkWqG4KqiESTTwioUUGNwyUze9haRkfHO8_m8xdZc/edit?usp=sharing" 
+         target="_blank" 
+         class="Estequiometria">
+        Estequiometria
+      </a>
+    </div>
+  
+    <div class="bloco-atividade">
+      <button class="icone-modal" onclick="abrirModal('modalLivre')">☰</button>
+      <a href="#" 
+         class="atividade-de-escolha">
+        Livre
+      </a>
+    </div>
+  </div>
+
+  <!-- MODAIS INDIVIDUAIS -->
+  <div id="modalMapaMental" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('modalMapaMental')">&times;</span>
+      <h2>Mapa Mental</h2>
+      <p><strong>Habilidades:</strong> Organização de ideias, resumo e conexão de conceitos.</p>
+      <p><strong>Objetivo:</strong> Sintetizar o conteúdo de forma visual.</p>
+      <p><strong>Comentário pessoal:</strong> Uma forma criativa e clara de revisar o conteúdo.</p>
+    </div>
+  </div>
+  
+  <div id="modalPoluicao" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('modalPoluicao')">&times;</span>
+      <h2>Poluição da Água</h2>
+      <p><strong>Habilidades:</strong> Pesquisa, reflexão ambiental e comunicação.</p>
+      <p><strong>Objetivo:</strong> Analisar as causas e consequências da poluição.</p>
+      <p><strong>Comentário pessoal:</strong> Um tema importante que me fez repensar hábitos diários.</p>
+    </div>
+  </div>
+  
+  <div id="modalEstequiometria" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('modalEstequiometria')">&times;</span>
+      <h2>Estequiometria</h2>
+      <p><strong>Habilidades:</strong> Raciocínio lógico, cálculos químicos e análise quantitativa.</p>
+      <p><strong>Objetivo:</strong> Aplicar os conceitos de reações químicas.</p>
+      <p><strong>Comentário pessoal:</strong> Desafiador, mas essencial para entender a química na prática.</p>
+    </div>
+  </div>
+  
+  <div id="modalLivre" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('modalLivre')">&times;</span>
+      <h2>Atividade Livre</h2>
+      <p><strong>Habilidades:Fazer bla bla bla</strong> Autonomia, criatividade e escolha consciente.</p>
+      <p><strong>Objetivo:</strong> Desenvolver algo de interesse próprio dentro do conteúdo estudado.</p>
+      <p><strong>Comentário pessoal:</strong> Uma oportunidade de expressar minhas ideias de forma única.</p>
+    </div>
+  </div>
 
     <div class="botao-voltar-areas">
         <a href="areas.html">Voltar</a>
     </div>
+
+    <script src="natureza.js"></script>
+
 </body>
 </html>

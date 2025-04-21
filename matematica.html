@@ -17,15 +17,57 @@
 <body>
     <div class="header-container-matematica">
         <div class="header-background-matematica">
-            <img src="fotomatematica2.jpg" alt="Foto de autoria" class="header-image-matematica">
+          <img src="fotomatematica2.jpg" alt="Foto de autoria" class="header-image-matematica">
         </div>
         <div class="header-matematica">
-            <Menu>Matemática</Menu>
+          <h1 class="header-menu-matematica">Matemática</h1>
         </div>
-    </div>
-
-    <div class="botao-voltar-areas">
+      </div>
+    
+      <div class="titulo-secao">
+        <h2>1° Trimestre</h2>
+      </div>
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal1')">☰</button>
+        <a href="https://www.canva.com/design/DAGkO8oRFSQ/GtAzCtDp45OkJz_ttC5Y8A/edit?utm_content=DAGkO8oRFSQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+        " 
+        target="_blank" 
+        class="botao-criando">Criando Jogo</a>
+      
+        <button class="icone-modal" onclick="abrirModal('modal2')">☰</button>
+        <a href="https://docs.google.com/document/d/1k7W_0ymWyi81y_lNCRlTTuAMJIgSBXEnYN-oGuLHAC4/edit?usp=sharing" 
+        target="_blank" 
+        class="botao-atividade-filme">Filme</a>
+      </div>
+    
+      <!-- MODAIS -->
+      <div id="modal1" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal1')">&times;</span>
+          <h2>Criando um Jogo</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> Criatividade, organização e síntese de ideias.</p>
+          <p><strong>Objetivo da atividade:</strong> Construir um portfólio que reflita as atividades escolares.</p>
+          <p><strong>Assunto:</strong> Experiências do 1° ano.</p>
+          <p><strong>Crítica pessoal:</strong> Consegui reunir bem as informações e demonstrar meu crescimento.</p>
+        </div>
+      </div>
+    
+      <div id="modal2" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal2')">&times;</span>
+          <h2>Filme - Quebrando a banca</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> Pensamento crítico, domínio de ferramentas digitais.</p>
+          <p><strong>Objetivo da atividade:</strong> Organizar e apresentar projetos do 2° ano de forma visual.</p>
+          <p><strong>Assunto:</strong> Projetos, pesquisas e atividades do 2° ano.</p>
+          <p><strong>Crítica pessoal:</strong> Foi desafiador mas me orgulho do resultado final.</p>
+        </div>
+      </div>
+    
+      <div class="botao-voltar-areas">
         <a href="areas.html">Voltar</a>
-    </div> 
+      </div>
+    
+      <script src="matematica.js"></script>
+
 </body>
 </html>

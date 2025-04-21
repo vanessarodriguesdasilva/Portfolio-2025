@@ -75,7 +75,7 @@ body {
 }
 
 /* Botões */
-.botao-curriculo button,
+.botao-PPE button,
 .botao-areas button,
 .botao-contraturnos button {
     background-color: #faebcc;
@@ -90,7 +90,7 @@ body {
     font-family: 'Smooch', cursive;
 }
 
-.botao-curriculo button:hover,
+.botao-PPE button:hover,
 .botao-areas button:hover,
 .botao-contraturnos button:hover {
     background-color: #faebcc;

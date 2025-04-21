@@ -1,0 +1,221 @@
+body {
+    background-color: #343625;
+    color: #faebcc;
+    margin: 0;
+}
+
+.header-menu-PPE {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #faebcc;
+    text-align: center;
+    margin-top: 0;
+}
+.header-container-PPE {
+    position: relative;
+    min-height: 400px;
+}
+
+.header-background-PPE {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.header-image-PPE {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 55%;
+}
+
+.header-PPE {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Smooch', cursive;
+    font-size: 100px;
+}
+
+.titulo-secao {
+    background-color: #5a5c3e; 
+    padding: 20px 40px;
+}
+  
+.titulo-secao h2 {
+    color: #faebcc; 
+    margin: 0;
+    font-size: 2.5em;
+    font-family: Montserrat;
+}
+
+.botao-1anoportfas {
+    display: inline-block;
+    background-color: #faebcc;
+    color: #343625;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.botao-1anoportfas {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botao-2anoportfas {
+    display: inline-block;
+    background-color: #faebcc;
+    color: #343625;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.botao-2anoportfas:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botoes-portfas {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espaço entre os botões */
+    margin-top: 20px;
+    flex-wrap: wrap; /* para quebrar em telas pequenas */
+}
+
+.titulo-secao-curriculos {
+    background-color: #5a5c3e; 
+    padding: 20px 40px;
+    margin-top: 60px;
+}
+  
+.titulo-secao-curriculos h2 {
+    color: #faebcc; 
+    margin: 0;
+    font-size: 2.5em;
+    font-family: Montserrat;
+}
+
+.botao-curriculo1 {
+    display: inline-block;
+    background-color: #faebcc;
+    color: #343625;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.botao-curriculo1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botao-curriculo2 {
+    display: inline-block;
+    background-color: #faebcc;
+    color: #343625;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.botao-curriculo2:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botoes-curriculos {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espaço entre os botões */
+    margin-top: 20px;
+    flex-wrap: wrap; /* para quebrar em telas pequenas */
+}
+
+.botao-TI a {
+    display: inline-block;
+    text-align: center;
+    background-color: #faebcc;
+    color: #343625;
+    border: none;
+    border-radius: 15px;
+    font-size: 29px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Smooch', cursive;
+    text-decoration: none;
+}
+
+.botao-TI a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.botao-TI {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.titulo-secao-certificados {
+    background-color: #5a5c3e; 
+    padding: 20px 40px;
+    margin-top: 60px;
+}
+  
+.titulo-secao-certificados h2 {
+    color: #faebcc; 
+    margin: 0;
+    font-size: 2.5em;
+    font-family: Montserrat;
+}
+
+.botao-certificados {
+    display: inline-block;
+    background-color: #faebcc;
+    color: #343625;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.botao-certificados {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.botao-container-certificados {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espaço entre os botões */
+    margin-top: 20px;
+    flex-wrap: wrap; /* para quebrar em telas pequenas */
+}
