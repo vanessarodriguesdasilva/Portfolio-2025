@@ -25,9 +25,54 @@
         </div>
     </div>
 
-    <div class="botao-voltar-areas">
+    <div class="titulo-secao">
+        <h2>1° Trimestre</h2>
+      </div>
+
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal1')">☰</button>
+        <a href="https://docs.google.com/spreadsheets/d/1AJzmyFB_8YTWCoFMHss98MQyeIrqX550FMScGW5CaBI/edit?usp=sharing" 
+           target="_blank" 
+           class="botao-planilha">Planilha</a>
+      
+        <button class="icone-modal" onclick="abrirModal('modal2')">☰</button>
+        <a href="https://www.canva.com/design/DAGhqe0PiqA/SjRlUuglGsye7gN6Swc5vg/edit?utm_content=DAGhqe0PiqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+           target="_blank" 
+           class="botao-apresentacao">S/A</a>
+      </div>
+      
+      
+      <!-- MODAL 1 -->
+      <div id="modal1" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal1')">&times;</span>
+          <h2>Planilha da Hamburgueria</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> H4, H7, H8</p>
+          <p><strong>Objetivo da atividade:</strong> Criar uma planilha com as RFs, RNFs e RN de uma hamburgueria.</p>
+          <p><strong>Assunto:</strong> Modelagem de sistemas.</p>
+          <p><strong>Crítica pessoal:</strong> O tema da hamburgueria era livre, oq abre uma porta para a pessoa decidir o que fazer, achei divertido e prático.</p>
+        </div>
+      </div>
+      
+      <!-- MODAL 2 -->
+      <div id="modal2" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal2')">&times;</span>
+          <h2>Apresentação da S/A</h2>
+          <p><strong>Habilidades desenvolvidas:</strong>H1, H2, H3, H4, H6, H7.</p>
+          <p><strong>Objetivo da atividade:</strong>  Fazer a apresentação da situação de aprendizagem do 3° ano.</p>
+          <p><strong>Assunto:</strong> Modelagem de sistemas.</p>
+          <p><strong>Crítica pessoal:</strong>O trabalho é interessante pois dá para ter uma base de o que vamos apresentar no final do ano, então é uma preparação.</p>
+        </div>
+      </div>
+      
+      <!-- BOTÃO VOLTAR -->
+      <div class="botao-voltar-areas">
         <a href="areas.html">Voltar</a>
-    </div>
+      </div>
+      
+      <script src="tecnico.js"></script>
+      
 
 </body>
 </html>

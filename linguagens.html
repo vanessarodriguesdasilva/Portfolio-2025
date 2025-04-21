@@ -24,9 +24,127 @@
             <Menu>Linguagens</Menu>
         </div>
     </div>
+    
+    <div class="titulo-secao">
+        <h2>1° Trimestre</h2>
+      </div>
 
-    <div class="botao-voltar-areas">
+<div class="container-bloco-atividade">
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal1')">☰</button>
+        <a href="https://docs.google.com/document/d/1v0RdyrNeCbcD2C_9qmsuV4NUhUE4tjHauc41DCx5Z_U/edit?usp=sharing"
+        target="_blank"
+        class="botao-pai-contra-mae">Pai contra mãe</a>
+      </div>
+      
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal2')">☰</button>
+        <a href="https://sites.google.com/estudante.sesisenai.org.br/revistasbrasilepapel/in%C3%ADcio"
+        target="_blank"
+        class="botao-revista-literaria">Revista</a>
+      </div>
+      
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal3')">☰</button>
+        <a href="https://www.canva.com/design/DAGgTlaKYNw/jaf8pCJyBK77mu315FxEiA/edit?utm_content=DAGgTlaKYNw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        target="_blank"
+        class="botao-biografia">Biografia</a>
+      </div>
+      
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal4')">☰</button>
+        <a href="https://sites.google.com/estudante.sesisenai.org.br/repertorio-enem/in%C3%ADcio"
+        target="_blank"
+        class="botao-repertório-enem">Repertório</a>
+      </div>
+      
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal5')">☰</button>
+        <a href="fotoredacao.png"
+        target="_blank"
+        class="botao-imagem">Redação</a>
+      </div>
+      
+      <div class="bloco-atividade">
+        <button class="icone-modal" onclick="abrirModal('modal6')">☰</button>
+        <a href="fotocometario.png"
+        target="_blank"
+        class="botao-imagem">Padlet</a>
+      </div>
+</div>
+      <!-- Modais -->
+      <div id="modal1" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal1')">&times;</span>
+          <h2>Pai contra mãe</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> ...</p>
+          <p><strong>Objetivo da atividade:</strong> Reescrever a história do conto de Machado de Assis, “Pai contra mãe”, na visão da mãe.</p>
+          <p><strong>Assunto:</strong> Leitura</p>
+          <p><strong>Crítica pessoal:</strong> Acho este tipo de atividade legal de fazer e desenvolver a leitura, criatividade e análise do estudante.</p>
+        </div>
+      </div>
+      
+      <div id="modal2" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal2')">&times;</span>
+          <h2>Revista Literária</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> ...</p>
+          <p><strong>Objetivo da atividade:</strong> Criar uma revista online.</p>
+          <p><strong>Assunto:</strong> Linguagens</p>
+          <p><strong>Crítica pessoal:</strong> Acho a revista online uma ótima forma de organização das atividades avaliativas passadas.</p>
+        </div>
+      </div>
+      
+      <div id="modal3" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal3')">&times;</span>
+          <h2>Biografia</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> H22</p>
+          <p><strong>Objetivo da atividade:</strong>Criar uma Autobiografia em 3° pessoa.</p>
+          <p><strong>Assunto:</strong>Biografia</p>
+          <p><strong>Crítica pessoal:</strong>Todo ano fazemos essa atividade, e essa foi a primeira vez que fizemos em 3° pessoa, é algo diferente.</p>
+        </div>
+      </div>
+      
+      <div id="modal4" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal4')">&times;</span>
+          <h2>Repertório ENEM</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> H23.</p>
+          <p><strong>Objetivo da atividade:</strong>Criar um site que tenha diferentes tipos de repertório para o ENEM.</p>
+          <p><strong>Assunto:</strong> Redação.</p>
+          <p><strong>Crítica pessoal:</strong> Atividade interessante, com um bom propósito e que iremos usar futuramente.</p>
+        </div>
+      </div>
+      
+      <div id="modal5" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal5')">&times;</span>
+          <h2>Nota ENEM</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> ...</p>
+          <p><strong>Objetivo da atividade:</strong>  Fazer uma redação avaliativa sobre a inclusão social de pessoas por meio dos esportes no Brasil.</p>
+          <p><strong>Assunto:</strong> Redação nota 1000.</p>
+          <p><strong>Crítica pessoal:</strong> Acho que é de suma importância fazer redações no estilo avaliativo, porém, não compreendi direito o tema e ficou meio abrangente, o que abre espaço para tangentes.</p>
+        </div>
+      </div>
+      
+      <div id="modal6" class="modal">
+        <div class="modal-conteudo">
+          <span class="fechar" onclick="fecharModal('modal6')">&times;</span>
+          <h2>Padlet</h2>
+          <p><strong>Habilidades desenvolvidas:</strong> ...</p>
+          <p><strong>Objetivo da atividade:</strong>  Fazer um comentário sobre o livro de Machado de Assis, “Memórias Póstumas de Brás Cubas”.</p>
+          <p><strong>Assunto:</strong> Leituras obrigatórias da UFSC. </p>
+          <p><strong>Crítica pessoal:</strong>  Acho as leituras legais, porém não acho este tipo de atividade importante para por em um portfólio, talvez retirar a atividade ou então fazer ela de um jeito diferente.</p>
+        </div>
+      </div>
+      
+      <!-- Botão Voltar -->
+      <div class="botao-voltar-areas">
         <a href="areas.html">Voltar</a>
-    </div>
+      </div>
+      <script src="linguagens.js"></script>
+      
+
 </body>
 </html>
